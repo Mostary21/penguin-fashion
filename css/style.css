@@ -1,4 +1,32 @@
-nav a img .logo{
-    width: 290px;
-    height: 39.27px;
+body{
+    font-family: 'Inter', sans-serif;
+}
+h2 .banner-text{
+    color: #FABE4C;
+}
+.btn-color{
+    height: 3em;
+    width: 8em;
+    background-color: #A4BC46;
+    border-radius: .5em;
+    border-style: none;
+}
+.footer-design{
+    background-color: white;
+    border: 0;
+    margin-bottom: 5em;
+}
+.card-border{
+    border: 0;
+    border-radius: 1em;
+    border-style: none;
+}
+.women{
+    background-color: #F1F1F1;
+    border-radius: 1em;
+}
+.footer-design{
+    border: 0;;
+    margin-bottom: 5em;
+    color: #FABE4C;
 }
