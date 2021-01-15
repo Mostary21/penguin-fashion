@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fashion</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -11,25 +12,24 @@
 </head>
 <body>
     <header class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light nav-color">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img class="logo" src="images/logo.png" alt="Penguin Fashion Logo"></a>
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Penguin Fashion Logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
-                    <div class="navbar-nav fw-bold">
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav fw-bold font">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link active" href="#women's-jacket">Women's Jcket</a>
-                        <a class="nav-link active" href="#men's-jacket">Men's Jcket</a>
-                        <a class="nav-link active" href="#">About Us</a>
-                        <a class="nav-link active" href="#">Contact Us</a>
+                        <a class="nav-link active" href="#womensjacket">Women's Jcket</a>
+                        <a class="nav-link active" href="#mensjacket">Men's Jcket</a>
+                        <a class="nav-link active" href="#subscribe">Contact</a>
                     </div>
                 </div>
             </div>
         </nav>
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleSlidesOnly" class="carousel slide banner-color" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="row d-flex align-items-center p-5">
                     <div class="col-md-7">
@@ -46,18 +46,18 @@
         </div>
     </header>
     <main class="container">
-        <section id="women's-jacket" class="container mt-5">
+        <section id="womensjacket" class="container mt-5">
             <h3 class="fw-bold">WOMEN'S JACKET</h3>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                     <div class="card card-border h-100 shadow">
                         <img src="images/women-jacket01.png" class="card-img-top women" alt="women jacket">
                         <div class="card-body">
-                            <h5 class="card-title">Women Jacket-01</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aut labore ipsum enim quasi facilis!</p>
+                            <h5 class="card-title fw-bold font">Women Jacket-01</h5>
+                            <p class="card-text font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aut labore ipsum enim quasi facilis!</p>
                         </div>
-                        <div class="card-footer footer-design btn-color">
-                            <h5>$234</h5>
+                        <div class="card-footer footer-design d-flex justify-content-between">
+                            <h5 class="fw-bold text-start mt-3">$234</h5>
                             <button type="button" class="btn-color bg-gradient text-white p-1"><img class="m-1" src="images/shopping-cart 1.png">BUY NOW
                             </button>
                         </div>
@@ -67,12 +67,13 @@
                     <div class="card card-border h-100 shadow">
                         <img src="images/women-jacket02.png" class="card-img-top women" alt="women jacket">
                         <div class="card-body">
-                            <h5 class="card-title">Women Jacket-02</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aut labore ipsum enim quasi facilis!</p>
+                            <h5 class="card-title fw-bold font">Women Jacket-02</h5>
+                            <p class="card-text font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aut labore ipsum enim quasi facilis!</p>
                         </div>
-                        <div class="card-footer footer-design btn-color">
-                            <h5>$234</h5>
-                            <button type="button" class="btn-color bg-gradient text-white p-1"><img class="m-1" src="images/shopping-cart 1.png">BUY NOW</button>
+                        <div class="card-footer footer-design d-flex justify-content-between">
+                            <h5 class="fw-bold text-start mt-3">$234</h5>
+                            <button type="button" class="btn-color bg-gradient text-white p-1"><img class="m-1" src="images/shopping-cart 1.png">BUY NOW
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -80,31 +81,33 @@
                     <div class="card card-border h-100 shadow">
                         <img src="images/women-jacket03.png" class="card-img-top women" alt="women jacket">
                         <div class="card-body">
-                            <h5 class="card-title">Women Jacket-03</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aut labore ipsum enim quasi facilis!
+                            <h5 class="card-title fw-bold font">Women Jacket-03</h5>
+                            <p class="card-text font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aut labore ipsum enim quasi facilis!
                             </p>
                         </div>
-                        <div class="card-footer footer-design btn-color">
-                            <h5>$234</h5>
-                            <button type="button" class="btn-color bg-gradient text-white p-1"><img class="m-1" src="images/shopping-cart 1.png">BUY NOW</button>
+                        <div class="card-footer footer-design d-flex justify-content-between">
+                            <h5 class="fw-bold text-start mt-3">$234</h5>
+                            <button type="button" class="btn-color bg-gradient text-white p-1"><img class="m-1" src="images/shopping-cart 1.png">BUY NOW
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
             </section>
-            <section id="men's-jacket" class="mt-5">
+            <section id="mensjacket" class="mt-5">
                 <h3 class="fw-bold">MEN'S JACKET</h3>
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
                         <div class="card card-border h-100 shadow">
                             <img src="images/men-jacket-01.png" class="card-img-top women" alt="men jacket">
                             <div class="card-body">
-                                <h5 class="card-title">Men's Jacket-01</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aut labore ipsum enim quasi facilis!</p>
+                                <h5 class="card-title fw-bold font">Men's Jacket-01</h5>
+                                <p class="card-text font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aut labore ipsum enim quasi facilis!</p>
                             </div>
-                            <div class="card-footer footer-design btn-color">
-                                <h5>$234</h5>
-                                <button type="button" class="btn-color bg-gradient text-white p-1"><img class="m-1" src="images/shopping-cart 1.png">BUY NOW</button>
+                            <div class="card-footer footer-design d-flex justify-content-between">
+                                <h5 class="fw-bold text-start mt-3">$234</h5>
+                                <button type="button" class="btn-color bg-gradient text-white p-1"><img class="m-1" src="images/shopping-cart 1.png">BUY NOW
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -112,12 +115,13 @@
                         <div class="card card-border h-100 shadow">
                             <img src="images/men-jacket-02.png" class="card-img-top women" alt="men jacket">
                             <div class="card-body">
-                                <h5 class="card-title">Men's Jacket-02</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aut labore ipsum enim quasi facilis!</p>
+                                <h5 class="card-title fw-bold font">Men's Jacket-02</h5>
+                                <p class="card-text font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aut labore ipsum enim quasi facilis!</p>
                             </div>
-                            <div class="card-footer footer-design btn-color">
-                                <h5>$234</h5>
-                                <button type="button" class="btn-color bg-gradient text-white p-1"><img class="m-1" src="images/shopping-cart 1.png">BUY NOW</button>
+                            <div class="card-footer footer-design d-flex justify-content-between">
+                                <h5 class="fw-bold text-start mt-3">$234</h5>
+                                <button type="button" class="btn-color bg-gradient text-white p-1"><img class="m-1" src="images/shopping-cart 1.png">BUY NOW
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -125,12 +129,13 @@
                         <div class="card card-border h-100 shadow">
                             <img src="images/men-jacket-03.png" class="card-img-top women" alt="men jacket">
                             <div class="card-body">
-                                <h5 class="card-title">Men's Jacket-03</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aut labore ipsum enim quasi facilis!</p>
+                                <h5 class="card-title fw-bold font">Men's Jacket-03</h5>
+                                <p class="card-text font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aut labore ipsum enim quasi facilis!</p>
                             </div>
-                            <div class="card-footer footer-design btn-color">
-                                <h5>$234</h5>
-                                <button type="button" class="btn-color bg-gradient text-white p-1"><img class="m-1" src="images/shopping-cart 1.png">BUY NOW/button>
+                            <div class="card-footer footer-design d-flex justify-content-between">
+                                <h5 class="fw-bold text-start mt-3">$234</h5>
+                                <button type="button" class="btn-color bg-gradient text-white p-1"><img class="m-1" src="images/shopping-cart 1.png">BUY NOW
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -138,49 +143,62 @@
         </section>
         <section class="mt-5">
             <div class="shopping d-flex">
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0 card-border mt-5 shadow">
-                        <div class="col-md-4">
-                            <img class="p-2" src="images/perfect-fit.png" alt="shop">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title p-1">Find the Perfect Fit</h5>
-                                <p class="card-text">Everybody is different, which is why we offer styles for every body</p>
+                <div class="col-md-6">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row row-cols-1 row-cols-md-1 g-0 card-border mt-5 shadow">
+                            <div class="col-md-2">
+                                <img class="p-2" src="images/perfect-fit.png" alt="shop">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title p-1">Find the Perfect Fit</h5>
+                                    <p class="card-text">Everybody is different, which is why we offer styles for every body</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="row g-0 card-border mt-5 shadow">
-                        <div class="col-md-4">
-                            <img src="images/exchange.png" alt="exchange">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Free Exchanges</h5>
-                                <p class="card-text">One of the many reasons you can shop with peace of mind.</p>
+                        <div class="row row-cols-1 row-cols-md-1 g-0 card-border mt-5 shadow">
+                            <div class="col-md-4">
+                                <img src="images/exchange.png" alt="exchange">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Free Exchanges</h5>
+                                    <p class="card-text">One of the many reasons you can shop with peace of mind.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="row g-0 card-border mt-5 shadow">
-                        <div class="col-md-4">
-                            <img src="images/seller.png" alt="call seller">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Contact Our Seller</h5>
-                                <p class="card-text">They are here to help you. That's quite -literally what we pay them for.</p>
+                        <div class="row row-cols-1 row-cols-md-1 g-0 card-border mt-5 shadow">
+                            <div class="col-md-4">
+                                <img src="images/seller.png" alt="call seller">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Contact Our Seller</h5>
+                                    <p class="card-text">They are here to help you. That's quite -literally what we pay them for.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div>
-                    <img src="images/online-shopping.png" alt="online shopping">
+                <div class="col-md-6">
+                    <div>
+                        <img class="p-5" src="images/online-shopping.png" alt="online shopping">
+                    </div>
                 </div>
+            </div>
+        </section>
+        <section id="subscribe" class="mt-5 d-flex align-items-center justify-content-center">
+            <div>
+                <h2 class="font text-center">STAY CONNECTED</h2>
+                <p class="font" style="text-align: center;">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <input type="text" placeholder="enter your email address">
+                <button type="submit" class="btn-color bg-gradient text-white p-1">SUBSCRIBE</button>
             </div>
         </section>
     </main>
     <footer class="mt-5 text-center">
-        <small>©2021 All rights reserved by Penguin Fashion.</small>
+        <small class="justify font">©2021 All rights reserved by Penguin Fashion.</small>
     </footer>
 <script src="js/bootstrap.min.js"></script>
 </body>

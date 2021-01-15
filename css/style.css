@@ -1,8 +1,17 @@
 body{
     font-family: 'Inter', sans-serif;
 }
+.nav-color{
+    background-color: #FFFBF0;
+}
+.banner-color{
+    background-color: #FFFBF0;
+}
 h2 .banner-text{
     color: #FABE4C;
+}
+.font{
+    color: #363958;
 }
 .btn-color{
     height: 3em;
@@ -11,15 +20,8 @@ h2 .banner-text{
     border-radius: .5em;
     border-style: none;
 }
-.footer-design{
-    background-color: white;
-    border: 0;
-    margin-bottom: 5em;
-}
 .card-border{
-    border: 0;
     border-radius: 1em;
-    border-style: none;
 }
 .women{
     background-color: #F1F1F1;
